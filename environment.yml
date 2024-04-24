@@ -1,0 +1,24 @@
+name: nhis_dashboard
+channels:
+  - defaults
+dependencies:
+  - python=3.9
+  - pip
+  - pip:
+    - streamlit
+    - lightgbm
+    - pandas
+    - seaborn
+    - scikit-learn
+    - tqdm
+    - dask
+    - ipykernel
+    - missingno
+    - jpype1
+    - tabula-py
+    - imblearn
+    - notebook
+    - jupyterthemes
+    - jupyter
+    - statsmodels
+    - matplotlib
